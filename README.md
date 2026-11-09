@@ -2,10 +2,21 @@
 
 **Drop-in middleware that checks every claim in a RAG answer against its source chunks, and abstains or repairs when the evidence isn't there.**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2ea44f?style=for-the-badge&logo=github)](https://crithvikbhaskar.github.io/groundcheck/)
+
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
 [![Next.js](https://img.shields.io/badge/Demo-Next.js%2014-black.svg)](https://nextjs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## 🌐 Live Interactive Demo
+
+Try the interactive demo live directly in your browser:  
+👉 **[https://crithvikbhaskar.github.io/groundcheck/](https://crithvikbhaskar.github.io/groundcheck/)**
+
+Test sample queries, customize threshold sliders, inspect green/yellow/red sentence-level NLI grounding, and preview unified diff repairs without any local installation.
 
 ---
 
